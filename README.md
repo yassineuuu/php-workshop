@@ -10,19 +10,9 @@
 8. Dans une invite de commande (PowerShell ou un autre terminal), vérifiez que l'installation est réussie en tapant `php -v`
 
 ## Enoncé 1 
-Dans ce travail, nous apprendrons à utiliser le moteur de template intégré, le shell interactif de PHP, et à attribuer et utiliser des variables. À la fin, vous serez en mesure de le faire :
 
-- Travailler avec le moteur de template intégré de PHP
-- Exécuter un script PHP en ligne de commande
-- Créer et attribuer des variables pour imprimer des messages simples sur le navigateur web
-- Exécutez le serveur web intégré de PHP sur votre machine
+pour démarrer le fichier movies.php Exécutez la commande suivante sur le terminale pour faire fonctionner le serveur web intégré de PHP : `php -S localhost:8085/movies.php`.
 
-1. Créez un fichier nommé `movies.php`.
-2. Saisissez les données de la chaîne de requête dans le fichier pour stocker les détails des films, tels que les noms des films, les noms des acteurs/actrices et l'année de sortie.
-3. Créez une structure HTML de base et affichez ensuite les chaînes de requête (`query string`) capturées.
-4. Allez au terminal et exécutez la commande pour démarrer le serveur web intégré (Exécutez la commande suivante pour faire fonctionner le serveur web intégré de PHP : `php -S localhost:8085`).
-5. Une fois le serveur web en marche, ouvrez la page PHP et ajoutez vos chaînes de requête à l'URL dans votre navigateur. La sortie attendue est illustrée dans la figure `enoncé1-sortie.png`.
-- Documentez vous sur l'utilisation des variables prédéfies (`super globales`, `$_GET`) pour extraire les chaînes de requêtes (`query string`) que vous allez saisir dans l'`URL`.
 
 ## Enoncé 2
 À la fin de cet enoncé, vous pourrez :

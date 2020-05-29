@@ -11,31 +11,15 @@
 
 ## Enoncé 1 
 
-pour démarrer le fichier movies.php Exécutez la commande suivante sur le terminale pour faire fonctionner le serveur web intégré de PHP : `php -S localhost:8085/movies.php`.
+pour démarrer le fichier movies.php Exécutez la commande suivante sur le terminale pour faire fonctionner le serveur web intégré de PHP : `php -S localhost:8085/Enoncé1/movies.php`. pour démarrer le serveur, et voir le resultat sur le lien "localhost:8085/Enoncé1/movies.php" au navigateur.<< vous pouvez écrire dans les inputs ou modifier la chaîne de requête.>>
+
+Ou vous pouvez simplement Exécutez la commande `php movies.php` sur le dossier Enoncé1.
 
 
 ## Enoncé 2
-À la fin de cet enoncé, vous pourrez :
-- Utiliser les différents types de données dans PHP pour stocker et travailler avec les données
-- Créer et utiliser des tableaux
-- Mettre en œuvre le concept de tableaux multidimensionnels
-- Travailler avec les opérateurs pour évaluer la valeur des opérations
-- Effectuer un casting de pour convertir les variables d'un type à l'autre
 
-Supposons que vous décidiez un jour de surveiller votre santé, mais que vous ne vouliez pas utiliser un outil tiers. Vous pourriez construire un outil simple pour prendre des mesures, notamment le nom, le poids et la taille. À partir de là, vous pouvez calculer votre `IMC`.
-
-Dans cette activité, vous écrirez un script qui prendra des variables du script afin d'effectuer des calculs pour obtenir un résultat d'IMC. Vous définirez un certain nombre de valeurs par défaut, mais vous construirez également une option pour spécifier vos propres données via des chaînes de requête.
-
-Voici les étapes à suivre pour réaliser l'activité :
-
-1. Créer un fichier `tracker.php`.
-2. Définir une chaîne `$name` pour stocker le nom de l'utilisateur.
-3. Définir un entier `$weightKg` pour stocker le poids en kilogrammes.
-4. Définir un entier `$heightCm` pour stocker la hauteur en centimètres.
-5. Convertir la hauteur en mètres.
-6. Calculer la valeur de la hauteur au carré.
-7. Calculer l'IMC en divisant le poids de l'utilisateur par la valeur de la taille au carré.
-8. Afficher un message à l'écran affichant le nom et le résultat de l'IMC.
+pour démarrer le fichier tracker.php Exécutez la commande suivante sur le terminale pour faire fonctionner le serveur web intégré de PHP : `php -S localhost:8085/Enoncé2/tracker.php`. pour démarrer le serveur, et voir le resultat sur le lien "localhost:8085/Enoncé2/tracker.php" au navigateur
+Ou vous pouvez simplement Exécutez la commande `php tracker.php` sur le dossier Enoncé2
 
 ## Enoncé 2
 Dans cette activité, nous pratiquerons le looping imbriqué et appliquerons des conditions pour limiter les itérations des boucles intérieures et extérieures. Nous disposerons d'un tableau associatif multidimensionnel dans lequel le nom du réalisateur sert de clé pour contenir un tableau de noms de films. Ainsi, chaque élément du tableau associatif contient un nom de réalisateur comme clé et le tableau des noms de films comme valeur. Nous allons introduire une boucle extérieure pour faire une boucle à travers les éléments du tableau associatif et imprimer le nom du réalisateur, utilisé comme clé. Une autre boucle interne doit boucler le tableau des noms de films de ce réalisateur - c'est la clé. Les arguments agissent comme des étapes d'itération de boucle pour maintenir où le premier argument définit combien de fois le nom d'un réalisateur doit être imprimé et le second argument définit combien de noms de films doivent être imprimés à partir du réalisateur donné.

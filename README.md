@@ -23,10 +23,13 @@ Ou vous pouvez simplement Exécutez la commande `php tracker.php` sur le dossier
 
 ## Enoncé 3
 
-pour démarrer le fichier activity-movies.php Exécutez la commande suivante sur le terminale pour faire fonctionner le serveur web intégré de PHP : `php -S localhost:8085/Enoncé3/activity-movies.php`. pour démarrer le serveur, et voir le resultat sur le lien "localhost:8085/Enoncé2/activity-movies.php" au navigateur
+pour démarrer le fichier activity-movies.php Exécutez la commande suivante sur le terminale pour faire fonctionner le serveur web intégré de PHP : `php -S localhost:8085/Enoncé3/activity-movies.php`. pour démarrer le serveur, et voir le resultat sur le lien "localhost:8085/Enoncé3/activity-movies.php" au navigateur
 
 
+## Enoncé 4
 
+pour démarrer le fichier index.php Exécutez la commande suivante sur le terminale pour faire fonctionner le serveur web intégré de PHP : `php -S localhost:8085/Enoncé4/index.php`. pour démarrer le serveur, et voir le resultat sur le lien "localhost:8085/Enoncé4/index.php" au navigateur
+pour cette Enoncé, je n'ai pas utilisé les entrées dans la dernière question parce que je n'ai pas trouvé un moyen approprié de fusionner 3 fonctions dans une seule entrée, et pour cela j'ai mis des commentaires dans le code pour ouvrir la voie à l'utilisateur
 
 
 !!ATTENTION!!:
